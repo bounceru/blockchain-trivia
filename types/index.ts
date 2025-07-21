@@ -1,21 +1,21 @@
 export interface IQuestion {
-  text: string
-  image: string
-  lifetimeSeconds: number
-  options: IOption[]
+    text: string
+    image: string
+    lifetimeSeconds: number
+    options: IOption[]
 }
 
 export interface IOption {
-  text: string
+    text: string
 }
 
 export interface IQuestions {
-  questions: IQuestion[]
+    questions: IQuestion[]
 }
 
 export interface ITriviaResponse {
-  questionNumber: number
-  questionText: string
-  answerText: string
-  answerNumber: number
+    questionNumber: number
+    questionText: string
+    answerText: string
+    answerNumber: number
 }
